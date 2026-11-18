@@ -1,0 +1,21 @@
+Proprietary License — CEO Plugin
+Copyright (c) 2026 CEO Plugin (Tam Nguyen Dinh). All Rights Reserved.
+
+1. Ownership & Copyright
+This software ("CEO Plugin"), including all binary executables, Windows Installer packages (.msi), Model Context Protocol (MCP) server implementations, embedded orchestration workflows, documentation, and accompanying files, is the proprietary and confidential property of CEO Plugin (Tam Nguyen Dinh) and is protected by applicable copyright, trade secret, and intellectual property laws.
+
+2. Grant of Limited License
+Subject to the terms of this License, the copyright holder grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and execute the official binary distribution of CEO Plugin on personal or enterprise workstations under your legitimate control for the purpose of multi-agent AI development orchestration.
+
+3. Restrictions
+Except as expressly permitted in writing by the copyright holder, you may NOT:
+- Reverse engineer, decompile, disassemble, or attempt to extract the source code, embedded assets, or internal prompts from the software binaries or installer packages;
+- Modify, adapt, translate, or create derivative works based upon CEO Plugin;
+- Redistribute, sublicense, rent, lease, sell, or host CEO Plugin as a commercial or managed service for third parties;
+- Remove, alter, or obscure any copyright, trademark, version, or proprietary notices embedded in the software or documentation.
+
+4. Automatic Updates & Telemetry
+Official releases are distributed exclusively through https://github.com/tamnguyendinh/CheapApp-Dev-Tool-releases with SHA-256 integrity verification (`checksums.txt`).
+
+5. Disclaimer of Warranty & Limitation of Liability
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
