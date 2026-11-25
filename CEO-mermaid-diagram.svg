@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3798.9851249999997 1157.1" width="3798.9851249999997" height="1157.1" style="--bg:#F1F5F9;--fg:#0F172A;--line:#475569;--muted:#334155;--surface:#FFFFFF;--border:#94A3B8;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 75%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 65%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 40%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 65%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, #FFFFFF);
+    --_node-stroke:   var(--border, #94A3B8);
+    --_group-fill:    #F8FAFC;
+    --_group-hdr:     #E2E8F0;
+    --_inner-stroke:  #CBD5E1;
+    --_key-badge:     #E2E8F0;
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="var(--bg)" />
+<g class="subgraph" data-id="Strategic_Branch" data-label="STRATEGIC BRANCH (Owner Direct Order Only — CEO Cannot Auto-Open or Kill)">
+  <rect x="332" y="64" width="496" height="334.6" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="332" y="64" width="496" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="346" y="78" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">STRATEGIC BRANCH (Owner Direct Order Only — CEO Cannot Auto-Open or Kill)</text>
+</g>
+<g class="subgraph" data-id="Execution_Branch" data-label="SPECIALIST EXECUTION TIERS (Atomic Slice / Leaf Delivery)">
+  <rect x="1641.6371249999997" y="375.29999999999995" width="2117.348" height="164.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="1641.6371249999997" y="375.29999999999995" width="2117.348" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1653.6371249999997" y="389.29999999999995" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">SPECIALIST EXECUTION TIERS (Atomic Slice / Leaf Delivery)</text>
+</g>
+<g class="subgraph" data-id="FastBlock_Flow" data-label="EMERGENCY: FAST BLOCK / FAST REJECT (In-Flight)">
+  <rect x="1024.6286249999998" y="929.5" width="338" height="187.60000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="1024.6286249999998" y="929.5" width="338" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1040" y="943.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">EMERGENCY: FAST BLOCK / FAST REJECT (In-Flight)</text>
+</g>
+<polyline class="edge" data-from="Owner" data-to="CEO" data-style="solid" data-arrow-start="true" data-arrow-end="true" data-label="Supreme Command / Intervention (PAUSE)" points="532.1746250000002,566.1 532.1746250000001,646.4 1089.9298749999998,646.4 1089.9298749999998,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead-start)" />
+<polyline class="edge" data-from="CEO" data-to="SysArch" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Summoned by Owner Order
+(CEO stays out, silent standby)" points="1041.6334374999997,694.4 1041.6334374999997,682.4 121,682.4 121,40 488.6646249999999,40 488.664625,64 488.664625,259 518.9024583333334,259 518.9024583333334,295" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SysArch" data-to="Owner" data-style="solid" data-arrow-start="true" data-arrow-end="true" data-label="Multi-round deep discussion
+until Owner approves" points="567.266625,382.6 567.266625,398.6 567.266625,434.6 532.1746250000001,434.6 532.1746250000002,529.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead-start)" />
+<polyline class="edge" data-from="SysArch" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sends Report to CEO only
+on Owner direct order" points="639.812875,382.6 639.812875,398.6 639.812875,555.5 695.185125,555.5 695.185125,634.4 1106.0286874999997,634.4 1106.0286874999997,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="StratPlan" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Opened only when Owner asks
+to convert Report into Plan" points="1057.7322499999998,694.4 1057.7322499999998,670.4 265.6199999999999,670.4 265.6199999999999,52 645.868625,52 645.868625,64 645.868625,108" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="SysArch" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Cross-check Plan PASS" points="494.720375,382.6 494.720375,398.6 494.7203749999999,434.6 370.02612499999987,434.6 370.02612499999987,658.4 1073.8310625,658.4 1073.8310624999997,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="Eng" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 1: Contextual pre-flight
+(Plan / drift / FAST BLOCK)" points="1122.1274999999998,694.4 1122.1274999999998,622.4 835.917125,622.4 835.917125,315.29999999999995 1814.2151249999997,315.29999999999995 1814.2151249999997,375.29999999999995 1814.2151249999997,419.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Eng" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="READY_FOR_CODER
+(With locked Touch-Map)" points="1814.2151249999997,506.9 1814.2151249999997,539.8 1814.2151249999997,634.4 1202.6215625,634.4 1202.6215624999998,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="Coder" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 2: Issue Build Contract
+(Locked Touch-Map)" points="1138.2263124999997,694.4 1138.2263125,610.4 986.273125,610.4 986.273125,327.29999999999995 2147.0006249999997,327.29999999999995 2147.0006249999997,375.29999999999995 2147.0006249999997,419.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Coder" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="READY_FOR_QA / SUPERVISOR" points="2147.0006249999997,523.8 2147.0006249999997,539.8 2147.0006249999997,646.4 1218.7203749999999,646.4 1218.7203749999999,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="QA" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 3: Runtime QA verification
+(When task requires QA)" points="1154.3251249999998,694.4 1154.3251249999998,339.29999999999995 2496.5306249999997,339.29999999999995 2496.5306249999997,375.29999999999995 2496.5306249999997,419.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="QA" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="READY_FOR_SUPERVISOR" points="2496.5306249999997,506.9 2496.5306249999997,539.8 2496.5306249999997,658.4 1234.8191874999998,658.4 1234.8191874999998,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="Sup" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 4: Independent audit
+(Sole authority to PASS)" points="1170.4239374999997,694.4 1170.4239374999997,610.4 1327.915125,610.4 1327.915125,351.29999999999995 2864.2151249999997,351.29999999999995 2864.2151249999997,375.29999999999995 2864.2151249999997,419.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Sup" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="VERDICT: PASS" points="2864.2151249999997,506.9 2864.2151249999997,539.8 2864.2151249999997,626.1 2813.5309562499997,626.1 2813.5309562499997,670.4 1250.918,670.4 1250.918,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="MechPlan" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 5: Immediately after Supervisor PASS" points="1186.5227499999999,694.4 1186.5227499999999,622.4 1516.8471249999998,622.4 1516.8471249999998,363.29999999999995 3222.7811249999997,363.29999999999995 3222.7811249999997,375.29999999999995 3222.7811249999997,419.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MechPlan" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Commit &amp; PASS -&gt; CEO opens next Slice" points="3222.7811249999997,506.9 3222.7811249999997,539.8 3222.7811249999997,638.1 3082.0459562499996,638.1 3082.0459562499996,682.4 1267.0168125,682.4 1267.0168124999998,694.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="Release" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Step 6: Release (On Owner order)" points="1283.1156249999998,722 3530,722 3530,523.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Release" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Clean Commit, Checksum &amp; URL -&gt; CEO" points="3620,523.8 3620,772 1283.1156249999998,772" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="BlockedLane" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Emergency alert (No full report)
+Pauses in PAUSED / BLOCKED state" points="1331.6286249999998,1000.4 1362.6286249999998,1000.4 1372.6286249999998,1000.4000000000002 1372.6286249999998,834.9 1180.0832249999999,834.9 1180.0832249999999,798.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="RescueLane" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Issues Fast Repair Packet
+Dispatches Rescue Lane:
+• Touch-Map / technical drift -&gt; Engineer
+• Code/test bug -&gt; Coder
+• Infra failure -&gt; DevOps" points="1077.0508249999998,798.9 1077.0508249999998,822.9 811.1806249999998,822.9 811.1806249999998,1074.2000000000003 1024.6286249999998,1074.2 1069.6286249999998,1074.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RescueLane" data-to="CEO" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Reports PASS to CEO" points="1317.6286249999998,1074.2 1362.6286249999998,1074.2 1497.4696249999997,1074.2000000000003 1497.4696249999997,822.9 1231.5994249999999,822.9 1231.5994249999999,798.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="CEO" data-to="BlockedLane" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Sends Unlock packet to SAME PAUSED lane
+to Resume (never restarts from scratch)" points="1128.5670249999998,798.9 1128.5670249999998,834.9 1014.6286249999998,834.9 1014.6286249999998,1000.4000000000002 1024.6286249999998,1000.4 1055.6286249999998,1000.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="StratPlan" data-to="SysArch" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Submits draft Plan via CEO" points="645.868625,178.7 645.868625,259 615.6307916666666,259 615.6307916666666,295" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="subgraph-header-overlay" aria-hidden="true" pointer-events="none">
+  <!-- Strategic_Branch header drawn above edges so no edge strikes through the label -->
+  <rect x="332" y="64" width="496" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="346" y="78" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">STRATEGIC BRANCH (Owner Direct Order Only — CEO Cannot Auto-Open or Kill)</text>
+  <!-- Execution_Branch header drawn above edges so no edge strikes through the label -->
+  <rect x="1641.6371249999997" y="375.29999999999995" width="2117.348" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1653.6371249999997" y="389.29999999999995" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">SPECIALIST EXECUTION TIERS (Atomic Slice / Leaf Delivery)</text>
+  <!-- FastBlock_Flow header drawn above edges so no edge strikes through the label -->
+  <rect x="1024.6286249999998" y="929.5" width="338" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="1040" y="943.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">EMERGENCY: FAST BLOCK / FAST REJECT (In-Flight)</text>
+</g>
+<g class="edge-label" data-from="Owner" data-to="CEO" data-label="Supreme Command / Intervention (PAUSE)">
+  <rect x="409.0206250000001" y="609.1" width="246" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="532.0206250000001" y="624.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Supreme Command / Intervention (PAUSE)</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="SysArch" data-label="Summoned by Owner Order
+(CEO stays out, silent standby)">
+  <rect x="27.56" y="630.8" width="186" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="120.56" y="653.0999999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="120.56" dy="-3.3000000000000007">Summoned by Owner Order</tspan><tspan x="120.56" dy="14.3">(CEO stays out, silent standby)</tspan></text>
+</g>
+<g class="edge-label" data-from="SysArch" data-to="Owner" data-label="Multi-round deep discussion
+until Owner approves">
+  <rect x="444.9936250000001" y="441.6" width="174" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="531.9936250000001" y="463.90000000000003" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="531.9936250000001" dy="-3.3000000000000007">Multi-round deep discussion</tspan><tspan x="531.9936250000001" dy="14.3">until Owner approves</tspan></text>
+</g>
+<g class="edge-label" data-from="SysArch" data-to="CEO" data-label="Sends Report to CEO only
+on Owner direct order">
+  <rect x="614.801125" y="562.5" width="160" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="694.801125" y="584.8" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="694.801125" dy="-3.3000000000000007">Sends Report to CEO only</tspan><tspan x="694.801125" dy="14.3">on Owner direct order</tspan></text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="StratPlan" data-label="Opened only when Owner asks
+to convert Report into Plan">
+  <rect x="171.5029999999999" y="530.2" width="188" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="265.5029999999999" y="552.5" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="265.5029999999999" dy="-3.3000000000000007">Opened only when Owner asks</tspan><tspan x="265.5029999999999" dy="14.3">to convert Report into Plan</tspan></text>
+</g>
+<g class="edge-label" data-from="SysArch" data-to="CEO" data-label="Cross-check Plan PASS">
+  <rect x="295.8451249999999" y="576.8000000000001" width="148" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="369.8451249999999" y="591.95" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Cross-check Plan PASS</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="Eng" data-label="Step 1: Contextual pre-flight
+(Plan / drift / FAST BLOCK)">
+  <rect x="745.845125" y="510.8" width="180" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="835.845125" y="533.1" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="835.845125" dy="-3.3000000000000007">Step 1: Contextual pre-flight</tspan><tspan x="835.845125" dy="14.3">(Plan / drift / FAST BLOCK)</tspan></text>
+</g>
+<g class="edge-label" data-from="Eng" data-to="CEO" data-label="READY_FOR_CODER
+(With locked Touch-Map)">
+  <rect x="1735.9251249999998" y="582.8" width="156" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1813.9251249999998" y="605.0999999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="1813.9251249999998" dy="-3.3000000000000007">READY_FOR_CODER</tspan><tspan x="1813.9251249999998" dy="14.3">(With locked Touch-Map)</tspan></text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="Coder" data-label="Step 2: Issue Build Contract
+(Locked Touch-Map)">
+  <rect x="901.799125" y="558.8" width="168" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="985.799125" y="581.0999999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="985.799125" dy="-3.3000000000000007">Step 2: Issue Build Contract</tspan><tspan x="985.799125" dy="14.3">(Locked Touch-Map)</tspan></text>
+</g>
+<g class="edge-label" data-from="Coder" data-to="CEO" data-label="READY_FOR_QA / SUPERVISOR">
+  <rect x="2052.936625" y="609.1" width="188" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="2146.936625" y="624.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">READY_FOR_QA / SUPERVISOR</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="QA" data-label="Step 3: Runtime QA verification
+(When task requires QA)">
+  <rect x="1060.870125" y="450.0" width="186" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1153.870125" y="472.3" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="1153.870125" dy="-3.3000000000000007">Step 3: Runtime QA verification</tspan><tspan x="1153.870125" dy="14.3">(When task requires QA)</tspan></text>
+</g>
+<g class="edge-label" data-from="QA" data-to="CEO" data-label="READY_FOR_SUPERVISOR">
+  <rect x="2415.071625" y="621.1" width="162" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="2496.071625" y="636.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">READY_FOR_SUPERVISOR</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="Sup" data-label="Step 4: Independent audit
+(Sole authority to PASS)">
+  <rect x="1247.8811249999999" y="505.0" width="160" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1327.8811249999999" y="527.3" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="1327.8811249999999" dy="-3.3000000000000007">Step 4: Independent audit</tspan><tspan x="1327.8811249999999" dy="14.3">(Sole authority to PASS)</tspan></text>
+</g>
+<g class="edge-label" data-from="Sup" data-to="CEO" data-label="VERDICT: PASS">
+  <rect x="2760.2629562499997" y="633.1" width="106" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="2813.2629562499997" y="648.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">VERDICT: PASS</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="MechPlan" data-label="Step 5: Immediately after Supervisor PASS">
+  <rect x="1394.7421249999998" y="585.1" width="244" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1516.7421249999998" y="600.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Step 5: Immediately after Supervisor PASS</text>
+</g>
+<g class="edge-label" data-from="MechPlan" data-to="CEO" data-label="Commit &amp; PASS -&gt; CEO opens next Slice">
+  <rect x="2963.8999562499994" y="645.1" width="236" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="3081.8999562499994" y="660.25" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Commit &amp; PASS -&gt; CEO opens next Slice</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="Release" data-label="Step 6: Release (On Owner order)">
+  <rect x="2260" y="706.85" width="212" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="2366" y="722" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Step 6: Release (On Owner order)</text>
+</g>
+<g class="edge-label" data-from="Release" data-to="CEO" data-label="Clean Commit, Checksum &amp; URL -&gt; CEO">
+  <rect x="2235" y="756.85" width="262" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="2366" y="772" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Clean Commit, Checksum &amp; URL -&gt; CEO</text>
+</g>
+<g class="edge-label" data-from="BlockedLane" data-to="CEO" data-label="Emergency alert (No full report)
+Pauses in PAUSED / BLOCKED state">
+  <rect x="1265.634625" y="841.9" width="214" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1372.634625" y="864.1999999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="1372.634625" dy="-3.3000000000000007">Emergency alert (No full report)</tspan><tspan x="1372.634625" dy="14.3">Pauses in PAUSED / BLOCKED state</tspan></text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="RescueLane" data-label="Issues Fast Repair Packet
+Dispatches Rescue Lane:
+• Touch-Map / technical drift -&gt; Engineer
+• Code/test bug -&gt; Coder
+• Infra failure -&gt; DevOps">
+  <rect x="686.1546249999999" y="979.7000000000002" width="250" height="87.5" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="811.1546249999999" y="1023.4500000000002" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="811.1546249999999" dy="-24.75">Issues Fast Repair Packet</tspan><tspan x="811.1546249999999" dy="14.3">Dispatches Rescue Lane:</tspan><tspan x="811.1546249999999" dy="14.3">• Touch-Map / technical drift -&gt; Engineer</tspan><tspan x="811.1546249999999" dy="14.3">• Code/test bug -&gt; Coder</tspan><tspan x="811.1546249999999" dy="14.3">• Infra failure -&gt; DevOps</tspan></text>
+</g>
+<g class="edge-label" data-from="RescueLane" data-to="CEO" data-label="Reports PASS to CEO">
+  <rect x="1429.3596249999998" y="1036.9" width="136" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1497.3596249999998" y="1052.0500000000002" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Reports PASS to CEO</text>
+</g>
+<g class="edge-label" data-from="CEO" data-to="BlockedLane" data-label="Sends Unlock packet to SAME PAUSED lane
+to Resume (never restarts from scratch)">
+  <rect x="887.388625" y="841.9" width="254" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1014.388625" y="864.1999999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="1014.388625" dy="-3.3000000000000007">Sends Unlock packet to SAME PAUSED lane</tspan><tspan x="1014.388625" dy="14.3">to Resume (never restarts from scratch)</tspan></text>
+</g>
+<g class="edge-label" data-from="StratPlan" data-to="SysArch" data-label="Submits draft Plan via CEO">
+  <rect x="563.7026249999999" y="221.7" width="164" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="645.7026249999999" y="236.85" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Submits draft Plan via CEO</text>
+</g>
+<g class="node" data-id="Owner" data-label="👑 OWNER" data-shape="stadium">
+  <rect x="462.66412500000024" y="529.2" width="139.021" height="36.900000000000006" rx="18.450000000000003" ry="18.450000000000003" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="532.1746250000002" y="547.6500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">👑 OWNER</text>
+</g>
+<g class="node" data-id="CEO" data-label="💼 CEO LANE (Command Hub)
+• Never reads code or edits files
+• Issues 100% verbatim contracts
+• Keeps repo clean (git status == 0)
+• Async standby + 10-min timer" data-shape="rectangle">
+  <rect x="1025.5346249999998" y="694.4" width="257.581" height="104.50000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1154.3251249999998" y="746.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1154.3251249999998" dy="-29.250000000000004">💼 CEO LANE (Command Hub)</tspan><tspan x="1154.3251249999998" dy="16.900000000000002">• Never reads code or edits files</tspan><tspan x="1154.3251249999998" dy="16.900000000000002">• Issues 100% verbatim contracts</tspan><tspan x="1154.3251249999998" dy="16.900000000000002">• Keeps repo clean (git status == 0)</tspan><tspan x="1154.3251249999998" dy="16.900000000000002">• Async standby + 10-min timer</tspan></text>
+</g>
+<g class="node" data-id="SysArch" data-label="📐 1. SYSTEM ARCHITECT
+• Discusses directly with Owner (Mode 0)
+• No old reports/plans unless Owner asks
+• Writes Design Report only after sign-off" data-shape="rectangle">
+  <rect x="422.174125" y="295" width="290.18499999999995" height="87.60000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="567.266625" y="338.8" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="567.266625" dy="-20.8">📐 1. SYSTEM ARCHITECT</tspan><tspan x="567.266625" dy="16.900000000000002">• Discusses directly with Owner (Mode 0)</tspan><tspan x="567.266625" dy="16.900000000000002">• No old reports/plans unless Owner asks</tspan><tspan x="567.266625" dy="16.900000000000002">• Writes Design Report only after sign-off</tspan></text>
+</g>
+<g class="node" data-id="StratPlan" data-label="🗺️ 2. STRATEGIC PLANNER
+• Splits Report into full Plan
+(Milestones, Epics, Leaf Tasks, 4 Ledgers)" data-shape="rectangle">
+  <rect x="499.664625" y="108" width="292.40799999999996" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="645.868625" y="143.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="645.868625" dy="-12.350000000000001">🗺️ 2. STRATEGIC PLANNER</tspan><tspan x="645.868625" dy="16.900000000000002">• Splits Report into full Plan</tspan><tspan x="645.868625" dy="16.900000000000002">(Milestones, Epics, Leaf Tasks, 4 Ledgers)</tspan></text>
+</g>
+<g class="node" data-id="Eng" data-label="🧭 3. ENGINEER LANE
+• Contextual pre-flight / Touch-Map lock
+• Resolves FAST BLOCK (never blocks back)
+• Commits &amp; hands off to CEO -&gt; HARD STOP" data-shape="rectangle">
+  <rect x="1652.6371249999997" y="419.29999999999995" width="323.15599999999995" height="87.60000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1814.2151249999997" y="463.09999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1814.2151249999997" dy="-20.8">🧭 3. ENGINEER LANE</tspan><tspan x="1814.2151249999997" dy="16.900000000000002">• Contextual pre-flight / Touch-Map lock</tspan><tspan x="1814.2151249999997" dy="16.900000000000002">• Resolves FAST BLOCK (never blocks back)</tspan><tspan x="1814.2151249999997" dy="16.900000000000002">• Commits &amp; hands off to CEO -&gt; HARD STOP</tspan></text>
+</g>
+<g class="node" data-id="Coder" data-label="💻 4. CODER LANE
+• Implements 100% Touch-Map
+• Builds via repository standard script
+• Logs to evidence.md / benchmark.md
+• Clean commit &amp; handoff -&gt; HARD STOP" data-shape="rectangle">
+  <rect x="1990.7931249999997" y="419.29999999999995" width="312.41499999999996" height="104.50000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="2147.0006249999997" y="471.54999999999995" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="2147.0006249999997" dy="-29.250000000000004">💻 4. CODER LANE</tspan><tspan x="2147.0006249999997" dy="16.900000000000002">• Implements 100% Touch-Map</tspan><tspan x="2147.0006249999997" dy="16.900000000000002">• Builds via repository standard script</tspan><tspan x="2147.0006249999997" dy="16.900000000000002">• Logs to evidence.md / benchmark.md</tspan><tspan x="2147.0006249999997" dy="16.900000000000002">• Clean commit &amp; handoff -&gt; HARD STOP</tspan></text>
+</g>
+<g class="node" data-id="QA" data-label="🧪 5. QA LANE
+• Runs standard build script to fresh .exe
+• Tests live UX (Computer Use, NO Playwright)
+• Logs evidence, commits &amp; handoff -&gt; HARD STOP" data-shape="rectangle">
+  <rect x="2323.2081249999997" y="419.29999999999995" width="346.645" height="87.60000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="2496.5306249999997" y="463.09999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="2496.5306249999997" dy="-20.8">🧪 5. QA LANE</tspan><tspan x="2496.5306249999997" dy="16.900000000000002">• Runs standard build script to fresh .exe</tspan><tspan x="2496.5306249999997" dy="16.900000000000002">• Tests live UX (Computer Use, NO Playwright)</tspan><tspan x="2496.5306249999997" dy="16.900000000000002">• Logs evidence, commits &amp; handoff -&gt; HARD STOP</tspan></text>
+</g>
+<g class="node" data-id="Sup" data-label="🛡️ 6. SUPERVISOR LANE
+• Zero-Trust: audits Code, Diff, Runtime, Dead Code
+• Escalates Findings to Engineer / SysArch
+• Issues PASS or REJECT verdict -&gt; HARD STOP" data-shape="rectangle">
+  <rect x="2689.8531249999997" y="419.29999999999995" width="348.72400000000005" height="87.60000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="2864.2151249999997" y="463.09999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="2864.2151249999997" dy="-20.8">🛡️ 6. SUPERVISOR LANE</tspan><tspan x="2864.2151249999997" dy="16.900000000000002">• Zero-Trust: audits Code, Diff, Runtime, Dead Code</tspan><tspan x="2864.2151249999997" dy="16.900000000000002">• Escalates Findings to Engineer / SysArch</tspan><tspan x="2864.2151249999997" dy="16.900000000000002">• Issues PASS or REJECT verdict -&gt; HARD STOP</tspan></text>
+</g>
+<g class="node" data-id="MechPlan" data-label="📋 7. MECHANICAL PLANNER
+• Short-lived lane (runs seconds, then exits)
+• Only checks [x] in plan.md &amp; actual-status.md
+• Forbidden to audit prose or paperwork" data-shape="rectangle">
+  <rect x="3058.5771249999997" y="419.29999999999995" width="328.40799999999996" height="87.60000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="3222.7811249999997" y="463.09999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="3222.7811249999997" dy="-20.8">📋 7. MECHANICAL PLANNER</tspan><tspan x="3222.7811249999997" dy="16.900000000000002">• Short-lived lane (runs seconds, then exits)</tspan><tspan x="3222.7811249999997" dy="16.900000000000002">• Only checks [x] in plan.md &amp; actual-status.md</tspan><tspan x="3222.7811249999997" dy="16.900000000000002">• Forbidden to audit prose or paperwork</tspan></text>
+</g>
+<g class="node" data-id="Release" data-label="🚀 8. RELEASE LANE
+• Single lane (No Coder/QA/AGENTS.md)
+• Checks git changes -> change.md
+• Bump -> Build &amp; SHA-256 -> Dry-Run
+• Push clean &amp; publish -> Report" data-shape="rectangle">
+  <rect x="3406.9851249999997" y="419.29999999999995" width="336" height="104.50000000000001" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="3574.9851249999997" y="471.54999999999995" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="3574.9851249999997" dy="-29.250000000000004">🚀 8. RELEASE LANE</tspan><tspan x="3574.9851249999997" dy="16.900000000000002">• Single lane (No Coder/QA/AGENTS.md)</tspan><tspan x="3574.9851249999997" dy="16.900000000000002">• Checks git changes -&gt; change.md</tspan><tspan x="3574.9851249999997" dy="16.900000000000002">• Bump -&gt; Build &amp; SHA-256 -&gt; Dry-Run</tspan><tspan x="3574.9851249999997" dy="16.900000000000002">• Push clean &amp; publish -&gt; Report</tspan></text>
+</g>
+<g class="node" data-id="BlockedLane" data-label="Active Lane (e.g., QA / Coder)
+hits external blocker / Touch-Map drift" data-shape="rectangle">
+  <rect x="1055.6286249999998" y="973.5" width="276" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1193.6286249999998" y="1000.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1193.6286249999998" dy="-3.9000000000000012">Active Lane (e.g., QA / Coder)</tspan><tspan x="1193.6286249999998" dy="16.900000000000002">hits external blocker / Touch-Map drift</tspan></text>
+</g>
+<g class="node" data-id="RescueLane" data-label="Rescue Lane
+(Root-cause fix + Commit + PASS)" data-shape="rectangle">
+  <rect x="1069.6286249999998" y="1047.3" width="248" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1193.6286249999998" y="1074.2" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1193.6286249999998" dy="-3.9000000000000012">Rescue Lane</tspan><tspan x="1193.6286249999998" dy="16.900000000000002">(Root-cause fix + Commit + PASS)</tspan></text>
+</g>
+</svg>
